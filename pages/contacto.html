@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/d34db84ce5.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <aside class="logoh">
+            <a href="/"><img src="../img/logoipsum-logo-28.svg" alt="logo de la empresa"></a>
+        </aside>
+        <a class="icono" href="#sidebar">
+            <i class="barmenu fa-solid fa-bars"></i>
+        </a>
+        <nav>            
+            <ul class="flex-container" id="sidebar">
+
+                <li class="flex-item flex-item-li"><a href="../index.html">Home</a></li>
+                <li class="flex-item flex-item-li"><a href="tienda.html">Tienda</a></li>
+                <li class="flex-item flex-item-li"><a href="filtro.html">Galeria</a></li>
+                <li class="flex-item flex-item-li"><a href="faqs.html">FAQS</a></li>
+                <li class="flex-item flex-item-li"><a href="contacto.html">Contacto</a></li>
+                <li class="flex-item flex__item--oculto"><a href="#">salir</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+    <section class="formulario">
+
+        <h1>ESCRIBINOS</h1>
+        <p>
+            A la brevedad nos contactaremos con vos!
+        </p>
+    
+        <form action="">
+        <fieldset>
+        <legend>Contacto</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/>
+        <br />
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido"/>
+        <br />
+        <label for="Telefono">Telefono</label>
+        <input type="text" name="Telefono" id="Telefono"/>
+        <br />
+        <label for="email">email</label>
+        <input type="email" name="email" id="email"/>
+        <br />
+
+        <div>Acepta los terminos</div>
+        <input type="checkbox" name="aceptar" value="1">
+        <br />
+
+        <select name="sucursal" id="sucursal">
+        <option value="CABA">CABA</option>
+        <option value="BS AS">BS AS</option>
+        </select>
+    
+        <br />
+        <label for="mensaje">Mensaje</label>
+        <br />
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje aqui"></textarea>
+        <br />
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPIAR FORMULARIO">
+        </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+
+    <nav>
+        <ul class="app">
+            <li><a target="_blank" href="https://www.instagram.com">Instagram</a></li>
+            <li><a target="_blank" href="https://www.twitter.com">Twitter</a></li>
+            <li><a target="_blank" href="https://www.facebook.com">Facebook</a></li>
+        </ul>
+        <aside class="logo">
+            <img src="../img/logoipsum-logo-28.svg" alt="Logo de Proyecto">
+        </aside>
+    </nav>
+    <aside>
+        <h4>Derechos reservados - <span>SERESI</span></h4>
+    </aside>
+    
+</footer>
+    
+</body>
+</html>
